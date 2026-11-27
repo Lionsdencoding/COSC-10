@@ -8,13 +8,13 @@ Activity: Investigate the Code
 
 Questions:
 1.  How did the output in `poem.txt` appear? Was it on one line or multiple lines?
-    # Your Answer Here
+    # it appeared on multiple lines exactly as it was written in the code.
 
 2.  The character `\n` is called a "newline" character. What does it do when you write it to a file?
-    # Your Answer Here
+    # when you write \n on a file it inserts a line reak causing the cursor to move to the beginning of the next line
 
 3.  How would you change the code to make "Roses are red" and "Violets are blue" appear on the same line?
-    # Your Answer Here
+    # to change the code so "Roses are red" and "violates are blue" appear on the same line you could get rid of \n from the end of "Roses are red" in the code
 """
 
 file = open("poem.txt", "w")
