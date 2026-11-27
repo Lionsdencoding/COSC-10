@@ -22,13 +22,13 @@ Run the program multiple times and enter different entries. Then, open the
 # --- YOUR CODE GOES BELOW ---
 
 # 1. Ask the user for a journal entry
-
+entery = input("enter your journal entry for today here:")
 # 2. Open journal.txt in append mode
-
+file = open("journal.txt", "a")
 # 3. Write the entry to the file (don't forget the newline character!)
-
+file.write(entry + "\n")
 # 5. Close the file
-
+file.close()
 # 6. Print a confirmation message
-
+pritn("journal entry written and saved!")
 # --- END YOUR CODE ---
