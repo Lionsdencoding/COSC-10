@@ -12,7 +12,7 @@ Activity: Predict the Output
     Pay close attention to the details, including special characters!
 """
 
-prediction = "" # Example: ["Milk", "Bread", "Eggs"]
+prediction = "['Milk\n', 'Bread\n', 'Eggs\n']" # Example: ["Milk", "Bread", "Eggs"]
 
 # This code assumes "shopping.txt" exists with the content described above.
 file = open("shopping.txt", "r")
