@@ -17,13 +17,13 @@ Activity: Investigate the Code
 
 Questions:
 1. What happened to the content of `log.txt` when you ran the program the second time (while in 'w' mode)?
-   # Your Answer Here
+   # the file was overwritten and first entry was replaced with "new entry./n"
 
 2. What happened to the content of `log.txt` when you ran the program the third and fourth times (while in 'a' mode)?
-   # Your Answer Here
+   # i got 2 "new entry" outputs on the third run and 3 "new entry" outputs on the fourth run. This happens because the content was appended
 
 3. What is the key difference between 'w' (write) mode and 'a' (append) mode?
-   # Your Answer Here
+   # The difference is that write mode truncates the file therefor erasing all the existing content. Wheres append preserves what was there and adds onto it.
 """
 
 # Change the mode below from "w" to "a" after the second run
