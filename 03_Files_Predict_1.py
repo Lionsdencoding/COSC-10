@@ -11,7 +11,7 @@ Activity: Predict the Output
 """
 
 # What will be the final text inside story.txt?
-prediction = "" # Example: "The end."
+prediction = "the sun was shining" # Example: "The end."
 
 # The 'w' mode stands for 'write'. It will overwrite the file.
 file = open("story.txt", "w")
